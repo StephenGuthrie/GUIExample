@@ -160,11 +160,11 @@ public class GridScreen {
 	    JLabel l3 = new JLabel("Order");
 	    
 	    
-    	l1.setFont(new Font(l1.getName(), Font.PLAIN, 30));
+    	l1.setFont(new Font(l1.getName(), Font.BOLD, 30));
 	    l1.setHorizontalAlignment(SwingConstants.CENTER);
-    	l2.setFont(new Font(l2.getName(), Font.PLAIN, 30));
+    	l2.setFont(new Font(l2.getName(), Font.BOLD, 20));
 	    l2.setHorizontalAlignment(SwingConstants.CENTER);
-    	l3.setFont(new Font(l3.getName(), Font.PLAIN, 30));
+    	l3.setFont(new Font(l3.getName(), Font.BOLD, 30));
 	    l3.setHorizontalAlignment(SwingConstants.CENTER);
 	    jb1.addActionListener(new OrderListener());
 	    jb1.setPreferredSize(new Dimension(150, 90));
